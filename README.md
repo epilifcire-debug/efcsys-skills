@@ -2,6 +2,9 @@
 
 Repositório central das **Skills globais da EFCsys**, criado para reutilizar padrões entre projetos sem misturar regras específicas de clientes.
 
+## Entrada global
+Use `EFCsys.md` como roteador. Ele aplica o padrão global e seleciona somente as Skills necessárias para a tarefa.
+
 ## Princípios
 - Skills pequenas, especializadas e reutilizáveis.
 - Alterações mínimas e escopadas.
@@ -26,6 +29,7 @@ Repositório central das **Skills globais da EFCsys**, criado para reutilizar pa
 - `skills/` — instruções reutilizáveis.
 - `shared/` — padrões globais consultados pelas Skills.
 - `templates/` — base para novas Skills e novos projetos.
+- `integrations/` — instruções de ativação em plataformas como Lovable.
 
 ## Regra de uso
 Carregue somente a Skill relevante para a tarefa. Consulte arquivos de `shared/` apenas quando a Skill ou a mudança realmente exigir contexto adicional.
