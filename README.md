@@ -19,6 +19,8 @@ Repositório central das **Skills globais da EFCsys**, criado para reutilizar pa
 - `pwa` — instalação, cache e experiência standalone.
 - `security` — autenticação, autorização e dados sensíveis.
 - `testing` — validação focada e prevenção de regressões.
+- `whatsapp-bots` — conexão, filas, notificações e operação dos bots.
+- `oracle-deploy` — deploy e diagnóstico de serviços Docker em VMs Oracle/Linux.
 
 ## Estrutura
 - `skills/` — instruções reutilizáveis.
