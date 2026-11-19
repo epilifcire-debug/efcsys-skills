@@ -18,6 +18,7 @@ Use `EFCsys.md` como roteador. Ele aplica o padrão global e seleciona somente a
 - `efcsys-standard` — padrão global EFCsys.
 - `lovable` — execução eficiente no Lovable.
 - `supabase` — banco, Auth, RLS e backend.
+- `design-direction` — identidade do cliente e regras anti-visual-genérico antes de desenhar.
 - `ui-ux` — interface, responsividade e acessibilidade.
 - `pwa` — instalação, cache e experiência standalone.
 - `security` — autenticação, autorização e dados sensíveis.
@@ -30,6 +31,9 @@ Use `EFCsys.md` como roteador. Ele aplica o padrão global e seleciona somente a
 - `shared/` — padrões globais consultados pelas Skills.
 - `templates/` — base para novas Skills e novos projetos.
 - `integrations/` — instruções de ativação em plataformas como Lovable.
+
+## Plugin recomendado
+Para reforçar a qualidade visual no Claude, instalar o plugin **VectorLab UI/UX Skills** (anti-slop, typography, colour-palette, motion, forms, ux-audit). As regras essenciais já estão resumidas em `design-direction` e `ui-ux`; o plugin adiciona a auditoria `ux-audit`.
 
 ## Regra de uso
 Carregue somente a Skill relevante para a tarefa. Consulte arquivos de `shared/` apenas quando a Skill ou a mudança realmente exigir contexto adicional.
