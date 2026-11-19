@@ -161,3 +161,4 @@ Carregar somente quando relevantes:
 - `../../shared/security-rules.md`
 - `../../shared/efcsys-brand.md`
 - `../../shared/DESIGN.md`
+- `../../shared/references.md`

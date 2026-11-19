@@ -96,4 +96,5 @@ A interface passa quando:
 - Regras de qualidade de UI: `../ui-ux/SKILL.md`
 - Perfil visual por projeto: `../../templates/new-project/ux-profile.md`
 - Padrão compartilhado: `../../shared/DESIGN.md`
+- Referências por tema (GitHub): `../../shared/references.md`
 - Plugin opcional recomendado: **VectorLab UI/UX Skills** (`anti-slop`, `typography`, `colour-palette`, `ux-audit`). Quando instalado, rodar `ux-audit` antes de entregar.
