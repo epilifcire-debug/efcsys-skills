@@ -14,6 +14,7 @@ Depois, carregar apenas as Skills relacionadas ao trabalho atual. Não carregar 
 |---|---|
 | Projeto/alteração no Lovable | `skills/lovable/SKILL.md` |
 | Supabase, banco, Auth, RLS, RPC, Edge Functions, Storage, Realtime | `skills/supabase/SKILL.md` |
+| Projeto novo, redesign, nova página principal/pública, "refazer visual/tipografia" | `skills/design-direction/SKILL.md` + `skills/ui-ux/SKILL.md` |
 | Tela, layout, formulário, dashboard, navegação, responsividade, acessibilidade | `skills/ui-ux/SKILL.md` |
 | Manifest, instalação, service worker, cache, offline, standalone, push | `skills/pwa/SKILL.md` |
 | Auth, autorização, API, dados sensíveis, pagamento, segredo ou operação privilegiada | `skills/security/SKILL.md` |
@@ -27,6 +28,7 @@ Uma tarefa pode exigir várias Skills. Carregue somente as necessárias.
 Exemplos:
 - corrigir RLS no Lovable → standard + lovable + supabase + security;
 - ajustar menu mobile → standard + lovable + ui-ux;
+- migrar app do Lovable refazendo o layout → standard + design-direction + ui-ux + pwa + supabase;
 - implantar bot na Oracle → standard + whatsapp-bots + oracle-deploy + security;
 - liberar PWA para cliente → standard + pwa + testing + security.
 

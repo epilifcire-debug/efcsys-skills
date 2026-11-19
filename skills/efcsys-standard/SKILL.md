@@ -66,6 +66,8 @@ Quando houver backend:
 - Mudança de papel deve atualizar corretamente acesso e estado da aplicação.
 
 ## UI/UX
+- A identidade do cliente (logo, assunto, público) vem antes de qualquer estética global; o padrão EFCsys define qualidade, não aparência.
+- Interface nova ou redesign: aplicar `../design-direction/SKILL.md` antes de codificar (plano visual + revisão anti-genérico + screenshots 375/1280).
 - Preservar identidade visual aprovada.
 - Reutilizar design system/componentes.
 - Manter mobile e desktop funcionais.
@@ -146,6 +148,7 @@ Não continuar adicionando melhorias fora do pedido.
 Use apenas quando necessárias:
 - Lovable: `../lovable/SKILL.md`
 - Supabase: `../supabase/SKILL.md`
+- Design Direction: `../design-direction/SKILL.md`
 - UI/UX: `../ui-ux/SKILL.md`
 - PWA: `../pwa/SKILL.md`
 - Security: `../security/SKILL.md`
