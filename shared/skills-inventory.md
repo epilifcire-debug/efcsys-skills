@@ -5,9 +5,9 @@ Referência de quais skills e plugins ficam ativos na conta e por quê. Atualiza
 ## Mantidos
 
 ### Padrão EFCsys (repositório efcsys-skills)
-- `efcsys-standard`: regra-base dos projetos
-- `pwa`: apps instaláveis
-- `shardcloud-deploy`: publicação na Shard Cloud
+- `efcsys-standard`: regra-base dos projetos (instalada)
+- `pwa`: apps instaláveis (instalada)
+- `shardcloud-deploy`: publicação na Shard Cloud (instalada)
 
 ### Design e interface
 - VectorLab UX (`motion`, `transitions`, `reduced-motion`, `page-patterns`, `anti-slop`, `keyboard`, `labels`, demais): transições, movimento e padrões de página
@@ -29,6 +29,15 @@ Referência de quais skills e plugins ficam ativos na conta e por quê. Atualiza
 - `import-memory`, `skill-creator`, `deep-research`, `google-workspace`
 - `chrome-browser`, `built-in-browser`, `computer-use`
 
+### Conectores
+- Gmail (reconectado)
+- Google Calendar (reconectado)
+- Google Slides (conectado)
+
+### Pendente de confirmação
+- `gdrive-to-markdown` (plugin ativo; manter ou remover?)
+- `audit-suite` e `Website Design`: confirmar se estão instalados
+
 ### Economia de tokens
 - `claude-context-optimizer`
 - `code-parser` (quando aceito)
@@ -43,7 +52,7 @@ Referência de quais skills e plugins ficam ativos na conta e por quê. Atualiza
 - `web-design-guidelines` (repetido por `ui-ux` e `web-review`)
 - `design-system`, `web-design-system` (use o `DESIGN.md` do padrão EFCsys)
 - `review-page` (use `web-review`)
-- `context-bench` (ativado por engano)
+- `context-bench` (ativado por engano; já removido)
 
 ## Motivo
 Skills com descrições longas são injetadas em toda sessão. Manter só o que é usado reduz o custo fixo de cada conversa.
