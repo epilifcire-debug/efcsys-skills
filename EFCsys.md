@@ -21,6 +21,7 @@ Depois, carregar apenas as Skills relacionadas ao trabalho atual. Não carregar 
 | Validação, regressão ou preparação para entrega | `skills/testing/SKILL.md` |
 | WhatsApp, conexão, QR, filas, polling, mensagens ou notificações | `skills/whatsapp-bots/SKILL.md` |
 | Oracle/Linux, Docker/Compose, VM, portas, health, logs, memória/swap | `skills/oracle-deploy/SKILL.md` |
+| Shard Cloud, Aplicação a partir do GitHub, Dockerfile, plano de memória, bots na Shard | `skills/shardcloud-deploy/SKILL.md` |
 
 ## Combinação
 Uma tarefa pode exigir várias Skills. Carregue somente as necessárias.

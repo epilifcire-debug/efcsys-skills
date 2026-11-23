@@ -39,3 +39,31 @@ Presets disponíveis (adaptar a cor ao cliente):
 - `ux-profile.md` no projeto.
 - Preview/mockup navegável para o cliente validar layout e tipografia.
 - Screenshots 375px e 1280px conferidos antes da entrega.
+
+## Uso de ColorBends (regra completa)
+- Aplicar apenas em hero, splash/login, cabeçalhos, páginas de destaque e cards especiais.
+- Evitar em listas longas, tabelas, formulários extensos e telas administrativas densas.
+- Em dashboards, uso pontual.
+- Revisar FPS em celular; se preciso, reduzir `iterations`, `intensity`, `noise` e elementos animados.
+- Em `prefers-reduced-motion`, desligar a animação e mostrar fundo estático.
+
+## Formulários no padrão EFCsys
+- Labels visíveis e claras; feedback imediato.
+- Máscaras para CPF e telefone.
+- Erros objetivos, sem culpar o usuário.
+- Botão principal destacado.
+- Para login: aceitar nome de usuário **ou** e-mail; e-mail opcional no cadastro, sem confirmação por e-mail.
+
+## Assinatura EFCsys
+- Preferência gráfica: **by: efcsys**.
+- Fallback textual: **Desenvolvido por EFCsys • Todos os direitos reservados.**
+- Quando houver configuração de assinatura, upload, visibilidade e link, só o Administrador Master controla.
+
+## Identidade de app Master
+- Em todo app EFCsys com login, o primeiro Administrador Master (acesso total) deve ser deixado pronto, com o caminho ou SQL de criação registrado no projeto.
+
+## PWA obrigatório
+- Todo app EFCsys deve ser instalável no celular, seguindo `skills/pwa`.
+
+## Tipografia
+- Fontes modernas e legíveis; até quatro opções quando o requisito pedir.

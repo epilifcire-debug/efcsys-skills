@@ -25,6 +25,7 @@ Use `EFCsys.md` como roteador. Ele aplica o padrão global e seleciona somente a
 - `testing` — validação focada e prevenção de regressões.
 - `whatsapp-bots` — conexão, filas, notificações e operação dos bots.
 - `oracle-deploy` — deploy e diagnóstico de serviços Docker em VMs Oracle/Linux.
+- `shardcloud-deploy` — publicação de apps e bots na Shard Cloud a partir do GitHub.
 
 ## Estrutura
 - `skills/` — instruções reutilizáveis.
