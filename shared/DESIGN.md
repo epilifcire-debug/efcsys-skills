@@ -67,3 +67,17 @@ Presets disponíveis (adaptar a cor ao cliente):
 
 ## Tipografia
 - Fontes modernas e legíveis; até quatro opções quando o requisito pedir.
+
+## Animações e interações
+- Hover e transições de botão: duração entre 100 e 300 ms; animar apenas `transform` e `opacity`.
+- Respeitar `prefers-reduced-motion`: sem movimento, só mudança de cor ou opacidade.
+- Mudança de cursor (ex.: pointer ou arrastar): só dentro da tela do app. Páginas públicas e landing pages mantêm o cursor padrão, salvo elementos clicáveis.
+- Fundos animados: só com ação do usuário ou em momento específico (ex.: ao entrar numa tela de destaque). Nunca em loop contínuo em telas de trabalho.
+- Animação é acabamento: se o conteúdo não carregou, mostre loading ou vazio, não animação.
+
+## Preview e validação de layout
+- Todo projeto gera um preview/mockup navegável para o cliente validar layout e tipografia antes do desenvolvimento final.
+- Conferir o preview em 375px e 1280px e registrar a aprovação em `ux-profile.md`.
+
+## Administrador Master inicial
+- Registrar em `templates/new-project/README.md` o caminho ou SQL de criação do primeiro Administrador Master, para o teste inicial.

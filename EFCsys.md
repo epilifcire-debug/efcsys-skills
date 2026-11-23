@@ -22,6 +22,8 @@ Depois, carregar apenas as Skills relacionadas ao trabalho atual. Não carregar 
 | WhatsApp, conexão, QR, filas, polling, mensagens ou notificações | `skills/whatsapp-bots/SKILL.md` |
 | Oracle/Linux, Docker/Compose, VM, portas, health, logs, memória/swap | `skills/oracle-deploy/SKILL.md` |
 | Shard Cloud, Aplicação a partir do GitHub, Dockerfile, plano de memória, bots na Shard | `skills/shardcloud-deploy/SKILL.md` |
+| Projeto novo ou migração de app (ex.: sair do Lovable) | `templates/new-project/README.md` + `integrations/lovable.md` + `skills/efcsys-standard/SKILL.md` |
+| Hover, transições, cursor, fundos animados, landing page | `shared/DESIGN.md` (seção Animações) + `skills/ui-ux/SKILL.md` |
 
 ## Combinação
 Uma tarefa pode exigir várias Skills. Carregue somente as necessárias.

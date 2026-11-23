@@ -153,6 +153,8 @@ Use apenas quando necessárias:
 - PWA: `../pwa/SKILL.md`
 - Security: `../security/SKILL.md`
 - Testing: `../testing/SKILL.md`
+- Shard Cloud: `../shardcloud-deploy/SKILL.md`
+- Oracle: `../oracle-deploy/SKILL.md`
 
 ## Referências compartilhadas
 Carregar somente quando relevantes:

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0 — 2026-11-23
+- Roteador: linhas para projeto novo/migração e para animações, hover, cursor e landing.
+- `efcsys-standard`: referências a shardcloud-deploy e oracle-deploy.
+- `shared/DESIGN.md`: seção de animações e interações, preview navegável e caminho do Administrador Master.
+- Template de projeto: passos iniciais de conexão, preview e Administrador Master.
+
 ## 0.3.0 — 2026-11-22
 - Nova skill `shardcloud-deploy`: Aplicação a partir do GitHub, Dockerfile, variáveis fora do código, planejamento de memória (bots com navegador), diagnóstico e rollback.
 - `shared/DESIGN.md`: regras completas de ColorBends, formulários (máscaras, login por usuário ou e-mail), assinatura by: efcsys, Administrador Master e PWA obrigatório.
