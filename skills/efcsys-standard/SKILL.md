@@ -134,6 +134,11 @@ Aplicar `../testing/SKILL.md`.
 - Evitar duplicar a mesma regra em vários arquivos.
 - Detalhes específicos do cliente permanecem no projeto, não nesta Skill global.
 
+## Versão visível
+- Todo app criado ou atualizado mostra a versão na tela de login: rodapé pequeno com a versão e o commit (ex.: `Versão: scanner-v6 (dabda22)`).
+- A versão muda a cada alteração publicada, para conferir rapidamente se o deploy e o cache atualizaram.
+- Trocar também a versão do cache do PWA (service worker) a cada atualização.
+
 ## Critério de conclusão
 Uma tarefa está concluída quando:
 1. comportamento solicitado foi implementado;
